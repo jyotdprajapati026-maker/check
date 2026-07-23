@@ -14,7 +14,7 @@
             height: 80vh;
         }
         #nav{
-            height: 10vh;
+            height: 10vh;   
             /* background-color: rgb(149, 183, 231); */
             display: flex;
             justify-content: space-between;
@@ -94,6 +94,19 @@
         }
 
          @media(max-width:500px){
+             .section1{
+        flex-direction: column-reverse;
+    }
+
+    .section1 .left,
+    .section1 .right{
+        width: 100%;
+    }
+
+    .section1 .right{
+        margin-top: 20px; /* Space below left div */
+    }
+}
             #nav{
                 padding: 5px 25px;
                 font-size: 15px;
@@ -115,4 +128,4 @@
             background-color: rgb(193, 104, 104);
             /* display: grid; */
         }
-        }
+        
