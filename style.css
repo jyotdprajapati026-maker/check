@@ -1,0 +1,109 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100%;
+            min-height: 100vh;
+            /* padding: 5px; */
+            background-color: black;
+            /* display: grid; */
+        }
+        main{
+            height: 80vh;
+        }
+        #nav{
+            height: 10vh;
+            /* background-color: rgb(149, 183, 231); */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: fantasy;
+            font-size: 20px;
+            color: white;
+            /* gap: 350px; */
+            padding: 0px 50px;
+        }
+        #nav_bar2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            /* background-color: rgb(3, 47, 77); */
+        }
+        #nav_bar3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        #nav_bar4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            display: none;
+        }
+
+        .section1{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 10px 50px;
+        }
+        .section1 .left{
+            width: 42.5%;
+        }
+        
+        .section1 .left h1{
+            font-size: 40px;
+            background-image: url(https://images.unsplash.com/photo-1655998233171-ee5b130acba5?q=80&w=699&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-clip: text;
+            /* color: transparent; */
+            /* filter: blur(px); */
+        }
+
+        .section1 .left .tags{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 10px 0;
+        }
+
+        .section1 .left .tags h4{
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: grey;
+            white-space: nowrap;
+        }
+
+        .section1 .right{
+            background-color: rgb(189, 41, 41);
+            width: 45%;
+        }
+
+         @media(max-width:500px){
+            #nav{
+                padding: 5px 25px;
+                font-size: 15px;
+            }
+            .logo-img{
+                height: 30px;
+            }
+            #nav_bar2{
+                display: none;
+            }
+            #nav_bar4{
+                display: flex;
+                
+            }
+        html,body{
+            min-height: 100vh;
+            /* width: 100%; */
+            padding: 5px;
+            background-color: black;
+            /* display: grid; */
+        }
+        }
