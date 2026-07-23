@@ -7,7 +7,7 @@
             width: 100%;
             min-height: 100vh;
             /* padding: 5px; */
-            background-color: rgb(193, 104, 104);
+            background-color: rgb(44, 80, 9);
             /* display: grid; */
         }
         main{
@@ -111,7 +111,7 @@
         html,body{
             min-height: 100vh;
             /* width: 100%; */
-            padding: 5px;
+            /* padding: 5px; */
             background-color: rgb(193, 104, 104);
             /* display: grid; */
         }
