@@ -6,8 +6,7 @@
         html,body{
             width: 100%;
             min-height: 100vh;
-            /* padding: 5px; */
-            background-color: black;
+            /* padding: 5px; */background-color: rgb(193, 104, 104);;
             /* display: grid; */
         }
         main{
