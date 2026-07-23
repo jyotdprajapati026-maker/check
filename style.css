@@ -4,6 +4,7 @@
             box-sizing: border-box;
         }
         html,body{
+            padding-top: 12px;
             width: 100%;
             min-height: 100vh;
             /* padding: 5px; */
